@@ -67,7 +67,7 @@ function ChartAxisYTick() {
             if (tickValues.indexOf(',') > -1) {
                 tick.values = tickValues.split(',');
             } else {
-                tick.values = tickValues;
+                tick.values = [tickValues];
             }
         }
 
