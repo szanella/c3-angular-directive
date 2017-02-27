@@ -53,7 +53,7 @@ function ChartPoints () {
             if (!point.focus) {
                 point.focus = {"expand":{}};
             }
-            point.focus.expand.enabled = (attrs.pointsFocusEnabled !== 'false');
+            point.focus.expand.enabled = (attrs.pointExpandEnabled !== 'false');
         }
         if (attrs.pointExpandRadius) {
             if (!point.focus) {

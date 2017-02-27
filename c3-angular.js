@@ -1,4 +1,4 @@
-/*! c3-angular - v1.3.1 - 2017-02-22
+/*! c3-angular - v1.3.1 - 2017-02-27
 * https://github.com/jettro/c3-angular-directive
 * Copyright (c) 2017 ; Licensed  */
 angular.module('gridshore.c3js.chart', []);
@@ -2578,7 +2578,7 @@ function ChartPoints () {
             if (!point.focus) {
                 point.focus = {"expand":{}};
             }
-            point.focus.expand.enabled = (attrs.pointsFocusEnabled !== 'false');
+            point.focus.expand.enabled = (attrs.pointExpandEnabled !== 'false');
         }
         if (attrs.pointExpandRadius) {
             if (!point.focus) {
